@@ -4,4 +4,6 @@ Small codebit to demonstrate how JS can use non-class functions to implement pri
 Main benefit is that our classes would be a bit more lightweight and would only have the methods that are intended to be used publicly.
 If there's a private method that needs to be used publicly, just put it on the superclass when it becomes necessary.
 
+Example updated to show how `this` binding can be attached to the class calling the function.
+
 Run `node subClass.js` to see that subclasses still retain access to private functions of the superclass file.
