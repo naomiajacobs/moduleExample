@@ -6,6 +6,10 @@ class subClass extends parentClass {
 	testingOneTwo() {
 		this.publicFunction()
 	}
+
+	sayName() {
+		console.log('subClass')
+	}
 }
 
 
